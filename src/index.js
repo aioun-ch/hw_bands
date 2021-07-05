@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function buildCardDOM(band) {
-  let photos = bandsCollection.image_base_url;
+  let url = bandsCollection.image_base_url;
 
   return `<div class="cards">
-            <img src="${photos.replace(
+            <img src="${url.replace(
               `xxxARTIST-IDxxx`,
               `${band.art_id}`
             )}" alt="#" />
