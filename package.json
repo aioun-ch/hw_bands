@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "name": "hw_bands",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
